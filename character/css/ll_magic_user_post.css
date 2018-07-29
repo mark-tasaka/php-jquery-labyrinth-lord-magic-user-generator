@@ -1,0 +1,194 @@
+/*Labyrinth Lord post data css*/
+
+#characterName{
+    position:absolute;
+    top: 78px;
+    left: 50px;
+	font-size: 0.8em;
+}
+
+
+#alignment{
+    position:absolute;
+    top: 78px;
+    left: 520px;
+	font-size: 0.8em;
+}
+
+#playerName{
+    position:absolute;
+    top: 135px;
+    left: 410px;
+	font-size: 0.8em;
+}
+
+
+#armourName{
+    position:absolute;
+    top: 800px;
+    left: 620px;
+	font-size: 0.8em;
+}
+
+#armourAc{
+    position:absolute;
+    top: 800px;
+    left: 850px;
+	font-size: 0.8em;
+}
+
+
+#armourWeight{
+    position:absolute;
+    top: 800px;
+    left: 895px;
+	font-size: 0.8em;
+}
+
+#shieldName{
+    position:absolute;
+    top: 820px;
+    left: 620px;
+	font-size: 0.8em;
+}
+
+#shieldAc{
+    position:absolute;
+    top: 820px;
+    left: 850px;
+	font-size: 0.8em;
+}
+
+
+#shieldWeight{
+    position:absolute;
+    top: 820px;
+    left: 895px;
+	font-size: 0.8em;
+}
+
+
+#weaponsList{
+    position:absolute;
+    top: 940px;
+    left: 620px;
+	font-size: 0.6em;
+}
+
+#weaponsList2{
+    position:absolute;
+    top: 940px;
+    left: 845px;
+	font-size: 0.6em;
+}
+
+#weaponsList3{
+    position:absolute;
+    top: 940px;
+    left: 900px;
+	font-size: 0.6em;
+}
+
+#totalArmourClassMod{
+    position:absolute;
+    top: 855px;
+    left: 850px;
+	font-size: 0.8em;
+}
+
+#totalArmourWeight{
+    position:absolute;
+    top: 855px;
+    left: 895px;
+	font-size: 0.8em;
+}
+
+
+#totalWeaponWeight{
+    position:absolute;
+    top: 1145px;
+    left: 895px;
+	font-size: 0.8em;
+}
+
+
+#totalGearWeight{
+    position:absolute;
+    top: 860px;
+    left: 895px;
+	font-size: 0.8em;
+}
+
+#modifiedAc{
+    position:absolute;
+    top: 180px;
+    left: 75px;
+	font-size: 1.6em;
+}
+
+#weaponNotes{
+    position:absolute;
+    top: 1143px;
+    left: 610px;
+	font-size: 0.4em;
+}
+
+
+#gearList{
+    position:absolute;
+    top: 540px;
+    left: 680px;
+	font-size: 0.6em;
+}
+
+#gearList2{
+    position:absolute;
+    top: 540px;
+    left: 900px;
+	font-size: 0.6em;
+}
+
+#totalWeightCarried{
+    position:absolute;
+    top: 1036px;
+    left: 495px;
+	font-size: 0.7em;
+}
+
+#wealth{
+    position:absolute;
+    top: 1030px;
+    left: 75px;
+	font-size: 0.8em;
+}
+
+#coinWeight{
+    position:absolute;
+    top: 1143px;
+    left: 265px;
+	font-size: 0.7em;
+}
+
+#turnMove{
+    position:absolute;
+    top: 1064px;
+    left: 495px;
+	font-size: 0.6em;
+}
+
+
+#encounterMove{
+    position:absolute;
+    top: 1088px;
+    left: 495px;
+	font-size: 0.6em;
+}
+
+
+#runningMove{
+    position:absolute;
+    top: 1114px;
+    left: 495px;
+	font-size: 0.6em;
+}
+

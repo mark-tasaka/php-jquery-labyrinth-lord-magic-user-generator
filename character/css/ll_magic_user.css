@@ -1,0 +1,447 @@
+/* html rules
+--------------------*/
+
+/* id rules
+--------------------*/
+/*
+#sheet{
+    position:relative;
+	display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+*/
+
+/*
+section{
+	min-width: 950px;
+	margin: 0 auto;
+}
+*/
+
+body{
+	font-family: sans-serif;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
+#character_sheet{
+    width: 950px;
+    height: auto;
+	display: block;
+}
+
+
+
+
+#strength{
+    position:absolute;
+    top: 295px;
+    left: 50px;
+	font-size: 1.4em;
+}
+
+
+#strengthModDesc{
+    position:absolute;
+    top: 290px;
+    left: 240px;
+    width: 160px;
+	font-size: 0.6em;
+}
+
+#dexterity{
+    position:absolute;
+    top: 335px;
+    left: 50px;
+	font-size: 1.4em;
+}
+
+#dexterityModDesc{
+    position:absolute;
+    top: 330px;
+    left: 240px;
+    width: 160px;
+	font-size: 0.6em;
+}
+
+#constitution{
+    position:absolute;
+    top: 375px;
+    left: 50px;
+	font-size: 1.4em;
+}
+
+
+#constitutionModDesc{
+    position:absolute;
+    top: 370px;
+    left: 240px;
+    width: 160px;
+	font-size: 0.6em;
+}
+
+#intelligence{
+    position:absolute;
+    top: 415px;
+    left: 50px;
+	font-size: 1.4em;
+}
+
+
+#intelligenceModDesc{
+    position:absolute;
+    top: 410px;
+    left: 240px;
+    width: 160px;
+	font-size: 0.6em;
+}
+
+#wisdom{
+    position:absolute;
+    top: 455px;
+    left: 50px;
+	font-size: 1.4em;
+}
+
+
+#wisdomModDesc{
+    position:absolute;
+    top: 450px;
+    left: 240px;
+    width: 160px;
+	font-size: 0.6em;
+}
+
+
+#charisma{
+    position:absolute;
+    top: 495px;
+    left: 50px;
+	font-size: 1.4em;
+}
+
+
+
+#charismaModDesc{
+    position:absolute;
+    top: 486px;
+    left: 240px;
+    width: 160px;
+	font-size: 0.6em;
+}
+
+
+#saveBreathAttack{
+    position:absolute;
+    top: 290px;
+    left: 420px;
+	font-size: 1.4em;
+}
+
+
+#savePoisonDeath{
+    position:absolute;
+    top: 345px;
+    left: 420px;
+	font-size: 1.4em;
+}
+
+
+#savePetrify{
+    position:absolute;
+    top: 403px;
+    left: 420px;
+	font-size: 1.4em;
+}
+
+#savePetrify{
+    position:absolute;
+    top: 403px;
+    left: 420px;
+	font-size: 1.4em;
+}
+
+
+#saveWands{
+    position:absolute;
+    top: 458px;
+    left: 420px;
+	font-size: 1.4em;
+}
+
+#saveSpell{
+    position:absolute;
+    top: 515px;
+    left: 420px;
+	font-size: 1.4em;
+}
+
+
+#class{
+    position:absolute;
+    top: 78px;
+    left: 340px;
+	font-size: 0.8em;
+}
+
+
+#level{
+    position:absolute;
+    top: 78px;
+    left: 290px;
+	font-size: 0.8em;
+}
+
+#exNextLevel{
+    position:absolute;
+    top: 243px;
+    left: 565px;
+	font-size: 0.6em;
+}
+
+
+#meleeAc0{
+    position:absolute;
+    top: 627px;
+    left: 150px;
+	font-size: 0.9em;
+}
+
+
+#meleeAc1{
+    position:absolute;
+    top: 627px;
+    left: 190px;
+	font-size: 0.9em;
+}
+
+#meleeAc2{
+    position:absolute;
+    top: 627px;
+    left: 230px;
+	font-size: 0.9em;
+}
+
+#meleeAc3{
+    position:absolute;
+    top: 627px;
+    left: 270px;
+	font-size: 0.9em;
+}
+
+
+#meleeAc4{
+    position:absolute;
+    top: 627px;
+    left: 308px;
+	font-size: 0.9em;
+}
+
+#meleeAc5{
+    position:absolute;
+    top: 627px;
+    left: 347px;
+	font-size: 0.9em;
+}
+
+
+
+#meleeAc6{
+    position:absolute;
+    top: 627px;
+    left: 386px;
+	font-size: 0.9em;
+}
+
+#meleeAc7{
+    position:absolute;
+    top: 627px;
+    left: 427px;
+	font-size: 0.9em;
+}
+
+#meleeAc8{
+    position:absolute;
+    top: 627px;
+    left: 466px;
+	font-size: 0.9em;
+}
+
+#meleeAc9{
+    position:absolute;
+    top: 627px;
+    left: 506px;
+	font-size: 0.9em;
+}
+
+
+#missileAc0{
+    position:absolute;
+    top: 661px;
+    left: 150px;
+	font-size: 0.9em;
+}
+
+
+#missileAc1{
+    position:absolute;
+    top: 661px;
+    left: 190px;
+	font-size: 0.9em;
+}
+
+#missileAc2{
+    position:absolute;
+    top: 661px;
+    left: 230px;
+	font-size: 0.9em;
+}
+
+#missileAc3{
+    position:absolute;
+    top: 661px;
+    left: 270px;
+	font-size: 0.9em;
+}
+
+
+#missileAc4{
+    position:absolute;
+    top: 661px;
+    left: 308px;
+	font-size: 0.9em;
+}
+
+#missileAc5{
+    position:absolute;
+    top: 661px;
+    left: 347px;
+	font-size: 0.9em;
+}
+
+
+
+#missileAc6{
+    position:absolute;
+    top: 661px;
+    left: 386px;
+	font-size: 0.9em;
+}
+
+#missileAc7{
+    position:absolute;
+    top: 661px;
+    left: 427px;
+	font-size: 0.9em;
+}
+
+#missileAc8{
+    position:absolute;
+    top: 661px;
+    left: 466px;
+	font-size: 0.9em;
+}
+
+#missileAc9{
+    position:absolute;
+    top: 661px;
+    left: 506px;
+	font-size: 0.9em;
+}
+
+
+#baseAc{
+    position:absolute;
+    top: 190px;
+    left: 140px;
+	font-size: 1.4em;
+}
+
+#hitPoints{
+    position:absolute;
+    top: 190px;
+    left: 310px;
+	font-size: 1.4em;
+}
+
+#primeReq{
+    position:absolute;
+    top: 765px;
+    left: 60px;
+	font-size: 0.7em;
+}
+
+
+#wizardNotes{
+    position:absolute;
+    top: 785px;
+    left: 60px;
+	font-size: 0.7em;
+}
+
+
+#dieRollMethod{
+    position: absolute;
+    top: 1210px;
+    left:  60px;
+	font-size: 0.5em;
+}
+
+#level1Spell{
+    position:absolute;
+    top: 915px;
+    left: 198px;
+	font-size: 1.2em;
+}
+
+#level2Spell{
+    position:absolute;
+    top: 915px;
+    left: 238px;
+	font-size: 1.2em;
+}
+
+#level3Spell{
+    position:absolute;
+    top: 915px;
+    left: 278px;
+	font-size: 1.2em;
+}
+
+#level4Spell{
+    position:absolute;
+    top: 915px;
+    left: 318px;
+	font-size: 1.2em;
+}
+
+#level5Spell{
+    position:absolute;
+    top: 915px;
+    left: 358px;
+	font-size: 1.2em;
+}
+
+#level6Spell{
+    position:absolute;
+    top: 915px;
+    left: 398px;
+	font-size: 1.2em;
+}
+
+#level7Spell{
+    position:absolute;
+    top: 915px;
+    left: 438px;
+	font-size: 1.2em;
+}
+
+#level8Spell{
+    position:absolute;
+    top: 915px;
+    left: 478px;
+	font-size: 1.2em;
+}
+
+
